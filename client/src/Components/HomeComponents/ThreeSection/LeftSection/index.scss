@@ -1,0 +1,123 @@
+.leftsection_search{
+    margin-top: 50px;
+}
+.cards{
+    width: 1500px;
+    margin: 0 auto;
+    .populars{
+       .header{
+        .pi{
+            color: rgb(68, 68, 68);
+            font-size: 30px;
+        }
+        .ao{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+            .date{
+                i{
+                    color: rgb(120, 179, 2);
+                }
+                
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                p{
+                    color: rgb(107, 107, 107);
+                    margin-left: 10px;
+                }
+            }
+            .comments{
+                margin-left: 10px;
+                i{
+                    color: rgb(120, 179, 2);
+                }
+                
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                p{
+                    color: rgb(107, 107, 107);
+                    margin-left: 10px;
+                }
+            }
+            .file{
+                i{
+                    color: rgb(120, 179, 2);
+                }
+                margin-left: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                p{
+                    margin-left: 10px;
+                }
+            }
+        }
+       
+       } 
+       .hr{
+        display: flex;
+        margin-left:1px;
+        width: 700px;
+        opacity: 0.5;
+    }
+       .sekilveyazi{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img{
+            width: 300px;
+        }
+        .go{
+            margin-left: 30px;
+            p{
+                font-size: 14px;
+                color: rgb(107, 107, 107);
+                line-height: 23.8px;
+                width: 28%;
+                letter-spacing: 0;
+            }
+            .goe{
+                margin-left: 220px;
+                .buton{
+                    cursor: pointer;
+                    color: rgb(34,167,124);
+                    width: 150px;
+                    border-radius: 3px;
+                    border: 1px solid rgb(221, 215, 215);
+                    height: 30px;
+                    background-color: transparent;
+                }
+            }
+        }
+        display: flex;
+        flex-direction: row;
+       }
+       .hir{
+       opacity: 0.5;
+        margin-top: 100px;
+        display: flex;
+        margin-left:1px;
+        width: 700px;
+       }
+    }  
+}
+.leftsection_main{
+    .aaa{
+        .a{
+            .aa{
+                cursor: pointer;
+                background-color: rgb(49, 48, 48);
+                border: none;
+                width: 700px;
+                height: 30px;
+                color: white;
+                margin-top: 10px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

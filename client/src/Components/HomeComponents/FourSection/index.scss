@@ -1,0 +1,46 @@
+.foursection_main{
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(49,50,51);
+    height: 30vh;
+    .foursection{
+        display: flex;
+        flex-direction: row;
+        width: 1400px;
+        margin: 0 auto;
+        .soldaki{
+            display: flex;
+            flex-direction: column;
+           h4{
+            margin-left: 80px;
+            color: rgb(158, 157, 157);
+           }
+            ul{
+                list-style: none;
+                li{
+                    .stil{
+                        color: rgb(207, 202, 202);
+                        text-decoration: none;
+                    }
+                }
+                .awa{
+                    margin-left: -1px;
+                    width: 400px;
+                    opacity: 0.4;
+                }
+            }
+        }
+        .sagdaki{
+            margin-top: 30px;
+           margin-left: 600px;
+           img{
+            width: 200px;
+           } 
+           .wr{
+            width: 120%;
+            color: rgb(141, 138, 138);
+            font-size: 15px;
+           }
+        }
+    }
+}

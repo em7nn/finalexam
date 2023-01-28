@@ -1,0 +1,46 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(31, 166, 122);
+
+    .wro {
+        img {
+            position: relative;
+            z-index: 1;
+        }
+
+        .re {
+            top: 0;
+            left: 0;
+            opacity: 0.9;
+            z-index: 2;
+            margin-left: 300px;
+            margin-top: 250px;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            text-align: left;
+            position: absolute;
+
+            p {
+                background-color: rgb(23, 128, 116);
+                padding: 10px;
+                font-size: 30px;
+                opacity: 1;
+                color: rgb(255, 255, 255);
+            }
+
+            .pe {
+                font-size: 20px;
+                margin-top: -30px;
+                padding: 10px;
+                background-color: rgb(81, 96, 110);
+                opacity: 1;
+                width: 50%;
+                text-align: left;
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}

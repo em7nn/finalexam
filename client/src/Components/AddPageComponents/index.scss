@@ -1,0 +1,22 @@
+.obsi{
+    background-color: yellow;
+    height: 846px;
+    .formik{
+        
+        width: 1400px;
+        margin: 0 auto;
+        
+            .form{
+                padding-top: 300px ;
+                align-items: center;
+                    margin-left: 500px;
+                    width: 400px;
+                    display: flex;
+                    flex-direction: column;
+                    button{
+                        margin-top: 30px;
+                    }
+                }   
+
+    }
+}
